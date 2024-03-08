@@ -1,0 +1,55 @@
+.balance-container {
+  background-color: #ecfccb;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  border-color: #84cc16;
+  border-width: 1px;
+  border-style: solid;
+}
+.income-container {
+  background-color: #cffafe;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  border-color: #06b6d4;
+  border-width: 1px;
+  border-style: solid;
+}
+.expenses-container {
+  background-color: #ede9fe;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  border-color: #7c3aed;
+  border-width: 1px;
+  border-style: solid;
+}
+.balance-image {
+  height: 70px;
+  width: 70px;
+  margin-right: 20px;
+}
+.amount-text {
+  color: #7e858e;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+  .balance-income-expenses {
+    display: flex;
+    flex-direction: row;
+  }
+}
